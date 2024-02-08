@@ -1,6 +1,6 @@
 function monthlySavings(arr , livingCost) {
    if (!Array.isArray(arr) || typeof livingCost!=="number") {
-    return '“invalid input”';
+    return 'invalid input';
    }
    else{
     let sumDiscount=0;
@@ -18,7 +18,7 @@ function monthlySavings(arr , livingCost) {
         return saving;
     }
     else{
-        return '“earn more”'
+        return 'earn more';
     }
    }
     }

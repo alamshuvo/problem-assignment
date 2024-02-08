@@ -3,7 +3,7 @@ function checkName(name) {
         return "invalid"
     }
     else{
-        const checkChar=["A", "y", "i" , "e" , "o" , "u", "w"];
+        const checkChar=["a", "y", "i" , "e" , "o" , "u", "w"];
         const lowerName=name.toLowerCase();
             if (checkChar.includes((lowerName.charAt(lowerName.length-1)))) {
                 return "Good Name";

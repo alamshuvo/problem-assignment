@@ -1,6 +1,6 @@
 function deleteInvalids(array) {
     if (!Array.isArray(array)) {
-        return "“Invalid Array”";
+        return "Invalid Array";
     }
     else{
         let finalArray=[];

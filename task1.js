@@ -1,6 +1,6 @@
 function calculateMoney(ticketSale) {
     if (ticketSale<=0) {
-        return '“Invalid Number”';
+        return 'Invalid Number';
     }
     else{
         const perTicketSale=120;
@@ -12,4 +12,3 @@ function calculateMoney(ticketSale) {
         return ticketSaleProfitOrLoss;
     }
     }
-    

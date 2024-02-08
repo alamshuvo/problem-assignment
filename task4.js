@@ -1,10 +1,9 @@
-/*function signature/sample */
+
 function password(obj) {
-   
     if (Object.keys(obj).length!==3) {
         return "invalid"
        }
-       else if(toString(obj.birthYear).length!==4) {
+       else if(obj.birthYear.toString().length<4) {
          return "invalid"
        }
        else
@@ -18,4 +17,3 @@ function password(obj) {
        return finalPass;
     }
 }
-console.log(password({ name: "kolimuddin", birthYear: 1994 , siteName: "google"}));
